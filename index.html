@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/Images/favicon-32x32.png">
+    <title>Code Ton Site</title>
+    <meta name="description" content="Ici je met ka description de mon site web">
+    <meta property="og:title" content="Projet MobileFirst" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+    <link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+
+
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header class="w3-top w3-white">
+        <nav id="desktopNav" class="w3-bar -bottom">
+            <a href="javascript:void(0)" onclick="toggleNavbar()"
+                class="w3-button w3-bar-item w3-hide-medium w3-hide-large w3-right">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#Home" class="w3-bar-item w3-button w3-hide-small">Home</a>
+            <a href="#About" class="w3-bar-item w3-button w3-hide-small">About</a>
+            <a href="#Portfolio" class="w3-bar-item w3-button w3-hide-small">Portfolio</a>
+            <a href="#Contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+        </nav>
+
+        <nav id="mobileNav" class="w3-bar-block w3-white w3-hide-large w3-hide-medium w3-hide">
+            <a href="#Home" class="w3-bar-item w3-button" onclick="toggleNavbar()">Home</a>
+            <a href="#About" class="w3-bar-item w3-button" onclick="toggleNavbar()">About</a>
+            <a href="#Portfolio" class="w3-bar-item w3-button" onclick="toggleNavbar()">Portfolio</a>
+            <a href="#Contact" class="w3-bar-item w3-button" onclick="toggleNavbar()">Contact</a>
+        </nav>
+    </header>
+    <!-- HEADER END -->
+    <section id="Home">
+
+        <h1><i>APPREND LE<br>"DEV WEB"</i></h1>
+    </section>
+    <style>
+        #fleche {
+            top: 85%;
+            right: 3%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+
+        body {
+
+            background-color: whitesmoke;
+            background-size: cover;
+
+        }
+
+
+        section {
+            scroll-margin-top: 50px;
+        }
+
+        #Home {
+            height: 969px;
+            background-size: cover;
+            background-image: url(https://cdn.futura-sciences.com/sources/images/Code-informatique.jpeg);
+        }
+
+       
+
+        h1 {
+            padding-top: 350px;
+            text-align: center;
+            color: white;
+            font-size: 85px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkslateblue;
+            color: white;
+            font-family: 'Pacifico', cursive;
+            padding: 0;
+        }
+
+        h3 {
+            color: darkslateblue;
+            text-align: center;
+        }
+
+        h4 {
+
+            text-align: center;
+            color: #3e536f;
+        }
+
+        p {
+            color: black;
+            font-size: 20px;
+            padding-left: 20px;
+            text-align: center;
+        }
+
+        footer {
+
+            background-color: black;
+
+        }
+
+        .titre {
+            padding-top: 30px;
+            color: darkslateblue;
+            font-size: 40px;
+        }
+
+        .texte {
+
+            color: white;
+        }
+
+        .color-background {
+
+            background-color: darkcyan;
+            height: 150px;
+
+        }
+
+        .color{
+
+            text-align: center;
+
+        }
+
+    </style>
+    <main>
+        <section id="About">
+            <i>
+                <h2 class="titre">About</h2>
+            </i>
+            <div class="w3-row-padding">
+                <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem, eum
+                    molestiae aliquam
+                    beatae debitis, pariatur voluptates maxime sunt nesciunt illum esse ratione consequatur neque
+                    quaerat deserunt eligendi doloremque perspiciatis? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Numquam, tempore veritatis. Recusandae doloremque ratione saepe minima
+                    aspernatur. Soluta molestiae vero dolorum eius, eligendi ipsum, suscipit quod voluptates, non
+                    nulla corporis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam sunt voluptas
+                    rem ut delectus, dignissimos facere consequuntur tempore aut! Assumenda doloremque expedita
+                    consectetur iusto ipsum. Optio obcaecati officiis in cum. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Consectetur earum ab quod cupiditate dignissimos at hic, sunt, laudantium
+                    quidem aliquid ad inventore, error quas ex distinctio enim sit esse totam! Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Animi, numquam hic ratione vero quia ea eum possimus odio
+                    excepturi aliquid officiis autem repellendus porro explicabo magni, recusandae consequuntur
+                    omnis modi.</p>
+        </section>
+        <section id="Portfolio">
+            <i>
+                <h2 class="titre">Portfolio</h2>
+            </i>
+            <div class="w3-row-padding">
+                <article class="w3-col m4  w3-center">
+                    <hr>
+                    <img src="assets/Images/html-logo (1).png" class="w3-image"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem, eum molestiae aliquam
+                        beatae debitis, pariatur voluptates maxime sunt nesciunt illum esse ratione consequatur neque
+                        quaerat deserunt eligendi doloremque perspiciatis?</p>
+                </article>
+                <article class="w3-col m4 w3-center">
+                    <hr>
+
+                    <img src="assets/Images/css-logo (1).png" class="w3-image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae excepturi dolores a, iste
+                        asperiores quaerat expedita dolorem quod quidem suscipit tempore nobis neque animi omnis,
+                        voluptas veniam inventore quas!</p>
+                </article>
+                <article class="w3-col m4  w3-center">
+                    <hr>
+                    <img src="assets/Images/png-javascript-badge-picture-8 (1).png" class="w3-image">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugiat ad dolorum? Velit illo
+                        maxime tenetur asperiores corporis, sapiente tempore esse fugiat obcaecati, non placeat aliquam
+                        mollitia. Dolorem, nobis autem.</p>
+                </article>
+
+            <article class="w3-col m4  w3-center">
+                <hr>
+                <img src="assets/Images/phpmyadmin.png" class="w3-image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugiat ad dolorum? Velit illo
+                    maxime tenetur asperiores corporis, sapiente tempore esse fugiat obcaecati, non placeat aliquam
+                    mollitia. Dolorem, nobis autem.</p>
+            </article>
+            <article class="w3-col m4  w3-center">
+                <hr>
+                <img src="assets/Images/mysql-logo (1).png" class="w3-image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugiat ad dolorum? Velit illo
+                    maxime tenetur asperiores corporis, sapiente tempore esse fugiat obcaecati, non placeat aliquam
+                    mollitia. Dolorem, nobis autem.</p>
+            </article>
+            <article class="w3-col m4  w3-center">
+                <hr>
+                <img src="assets/Images/PHP-logo (1).png" class="w3-image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugiat ad dolorum? Velit illo
+                    maxime tenetur asperiores corporis, sapiente tempore esse fugiat obcaecati, non placeat aliquam
+                    mollitia. Dolorem, nobis autem.</p>
+            </article>
+        </section>
+        <section id="Contact">
+            <i>
+                <h2 class="titre">Contact</h2>
+            </i>
+            <div class="w3-row-padding">
+                <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem, eum
+                    molestiae aliquam
+                    beatae debitis, pariatur voluptates maxime sunt nesciunt illum esse ratione consequatur neque
+                    quaerat deserunt eligendi doloremque perspiciatis? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Numquam, tempore veritatis. Recusandae doloremque ratione saepe minima
+                    aspernatur. Soluta molestiae vero dolorum eius, eligendi ipsum, suscipit quod voluptates, non
+                    nulla corporis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam sunt voluptas
+                    rem ut delectus, dignissimos facere consequuntur tempore aut! Assumenda doloremque expedita
+                    consectetur iusto ipsum. Optio obcaecati officiis in cum. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Consectetur earum ab quod cupiditate dignissimos at hic, sunt, laudantium
+                    quidem aliquid ad inventore, error quas ex distinctio enim sit esse totam! Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Animi, numquam hic ratione vero quia ea eum possimus odio
+                    excepturi aliquid officiis autem repellendus porro explicabo magni, recusandae consequuntur
+                    omnis modi.</p>
+        </section>
+    </main>
+    
+    <script>
+        function toggleNavbar() {
+            // select mobileNav
+            var nav = document.getElementById("mobileNav");
+            // apply or not 
+            nav.classList.toggle("w3-show");
+        }
+
+        function homeHideNavbar() {
+            var nav = document.getElementById("mobileNav")
+            if (nav.classList.contains("w3-show")) {
+                nav.classList.remove("w3-show");
+            }
+        }
+    </script>
+</body>
+
+</html>
